@@ -1,0 +1,78 @@
+body {
+  margin: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.container {
+  width: 350px;
+}
+
+ul {
+  padding-left: 0;
+  width: 300px;
+}
+
+li {
+  display: block;
+  box-sizing: border-box;
+  width: 350px;
+  font-weight: 700;
+  font-size: 1.2em;
+  list-style: none;
+  padding: 10px 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+li div {
+  background-color: white;
+}
+
+li div.hiddenoptions {
+  display: none;
+}
+
+.remove {
+  text-decoration: none;
+  color: white;
+}
+
+li#empty::after {
+  display: none;
+}
+
+input[type="text"] {
+  width: 294px;
+  height: 24px;
+  font-size: 20px;
+}
+
+button#addName {
+  width: 46px;
+  height: 30px;
+  position: absolute;
+  margin-left: 5px;
+}
+
+#empty {
+  background-color: black;
+}
+
+.separator {
+  padding: 10px;
+  background-color: white;
+}
+
+.bump {
+  padding: 30px;
+  background-color: grey;
+}
+
+.smalltext {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
